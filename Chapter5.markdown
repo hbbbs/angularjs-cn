@@ -149,7 +149,7 @@ AngularJS为HTTP GET请求提供了一个开箱即用的简单缓存系统.缺�
 AngularJS对所有`$http`服务发起的请求和响应做一些基本的转换,它们包括:
 
 + 请求(Request)转换:
-    如果请求的Cofig配置对象的data属性包含一个对象，将会把这个对象序列化为JSON格式.
+    如果请求的Config配置对象的data属性包含一个对象，将会把这个对象序列化为JSON格式.
 + 响应(Response)转换:
     如果探测到一个XSRF头,把它剥离掉.如果响应数据被探测为JSON格式,用JSON解析器把它反序列化为JSON对象.
 
